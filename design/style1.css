@@ -1,0 +1,95 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+.background{
+    
+    width: 1440px;
+    height: 900px;
+    background: url(../images/pattern-background-desktop.svg)no-repeat;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    background-color: hsl(225, 100%, 96%);
+    border-radius: 20px;
+    align-items:center;
+
+}
+
+
+.conteiner img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.first-title{
+    font-weight: 800;
+    padding: 25px;
+}
+
+    
+
+.tiny-box{
+    padding:15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.tiny-box b{
+    font-weight: 800;
+
+}
+.tiny-box p{
+    display: flex;
+    flex-flow:column nowrap;
+    
+}
+
+.tiny-box a{
+    display: flex;
+    justify-content: right;
+    color:hsl(245, 71%, 33%) ;
+    font-size: 14px;
+}
+.blue-box{
+    width: 75%;
+    margin-top: 15px;
+    padding:10px;
+    background-color: hsl(245, 69%, 42%);
+    color:white;
+    border-radius: 1em;
+    box-shadow: 5px 12px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.blue-box a{
+    color:white;
+}
+.cancel{
+    margin: 25px;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
